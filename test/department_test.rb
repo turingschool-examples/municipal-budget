@@ -1,3 +1,5 @@
+require 'minitest/autorun'
+
 class DepartmentTest < Minitest::Test
 
   def test_it_exists
