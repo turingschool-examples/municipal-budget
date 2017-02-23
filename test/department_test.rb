@@ -14,9 +14,9 @@ class DepartmentTest < Minitest::Test
     assert_equal "Parks and Recreation", department.name
   end
 
-  def test_it_has_expenditures
+  def test_it_has_expenses
     department = Department.new("Parks and Recreation")
 
-    assert_equal [], department.expenditures
+    assert_equal [], department.expenses
   end
 end
