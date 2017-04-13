@@ -1,11 +1,11 @@
 require 'minitest/autorun'
+require 'minitest/pride'
 
 class DepartmentTest < Minitest::Test
-
   def test_it_exists
     department = Department.new("Parks and Recreation")
 
-    assert department
+    assert_instance_of Department, department
   end
 
   def test_it_has_a_name
